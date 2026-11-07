@@ -1,9 +1,10 @@
 {
   "name": "home-launcher",
-  "version": "1.0.0",
-  "description": "Abre la app Home (HkTvHome01.Home) al lanzar este módulo; úsalo con el autolaunch de TizenBrew.",
+  "version": "1.1.0",
+  "description": "Abre la app Home (HkTvHome01.Home) al arrancar este módulo; úsalo con el autolaunch de TizenBrew.",
   "packageType": "app",
   "appName": "Home",
   "appPath": "index.html",
+  "serviceFile": "service.js",
   "keys": []
 }

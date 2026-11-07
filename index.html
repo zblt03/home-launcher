@@ -9,16 +9,7 @@
 </style>
 </head>
 <body>
+<!-- La apertura de Home la hace service.js; esta página solo se ve unos instantes. -->
 <div id="msg">Abriendo Home…</div>
-<script>
-  // Lanza la app Home instalada en la TV; este módulo no contiene nada más.
-  var HOME_ID = "HkTvHome01.Home";
-  function fail(text) { document.getElementById("msg").textContent = text; }
-  try {
-    tizen.application.launch(HOME_ID, function () {}, function (e) { fail("No se pudo abrir Home: " + e.message); });
-  } catch (e) {
-    fail("No se pudo abrir Home: " + e.message);
-  }
-</script>
 </body>
 </html>
